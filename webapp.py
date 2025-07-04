@@ -2,7 +2,7 @@ import streamlit as st
 # This is a simple Streamlit app for managing a to-do list
 import function
 
-path = "/home/hari/webd/streamlit/webapp/todos.txt"  # Path to the todo file
+path = "todos.txt"  # Path to the todo file
 
 def add_task():
     todo = st.session_state.get("new_task", "").strip()  # Get the new task from session state
